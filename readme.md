@@ -13,6 +13,7 @@
 - concat(): to merge two different array
 - sort() : sort entire array into ascending order
 - reverse(): reverse elemet of array
+- join(): returns array as a string and add string
 
 ### Map,reduce and filter
 

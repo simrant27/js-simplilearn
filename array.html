@@ -60,8 +60,13 @@
     vehicles.reverse();
     document.getElementById("demo").innerHTML = vehicles;
 
+    //join()
+    let text = vehicles.join(" and ");
+    document.getElementById("demo").innerHTML = text;
+    // output : yamaha and volvo and royal enfield and Pulsar and Hyundi and Audi
+
     //Map,reduce and filter
-    //map(): create  a new array and performs a function on each array element and doesn't change the original array
+    // map(): create  a new array and performs a function on each array element and doesn't change the original array
     let num1 = [2, 3, 4, 5, 6, 7];
     let num2 = num1.map(multiply);
     function multiply(value) {
