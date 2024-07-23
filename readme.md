@@ -26,4 +26,16 @@
 - break: to terminate the loop
 - continue: to skip a particular loo[
   - to use continue in while loop you should do the increment inside the condition check before continue
-    ]
+
+### object
+
+- Js is template based and we can create objects without need of having a class
+- 3 diffrent way of creating js object
+  - use object literal
+  - use keyword new
+  - use an object constructor
+
+##### object properties:
+
+- value associated with js object are its properties
+- properties can be added, updated, and deleted, excluding read-only properties
