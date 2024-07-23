@@ -20,3 +20,10 @@
 - map(): create a new array and performs a function on each array element and doesn't change the original array
 - filter(): takes each elemet in an array and applies conditional statement
 - reduce(): reduces an arrya of values down to just one value using a function
+
+### loops
+
+- break: to terminate the loop
+- continue: to skip a particular loo[
+  - to use continue in while loop you should do the increment inside the condition check before continue
+    ]
