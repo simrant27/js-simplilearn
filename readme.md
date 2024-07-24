@@ -29,13 +29,23 @@
 
 ### object
 
+Objest ia a collection of properties
+
 - Js is template based and we can create objects without need of having a class
 - 3 diffrent way of creating js object
   - use object literal
   - use keyword new
   - use an object constructor
 
-##### object properties:
+###### object properties:
 
 - value associated with js object are its properties
 - properties can be added, updated, and deleted, excluding read-only properties
+
+##### object methods:
+
+- action that can be performed on the object
+
+- js object accessors
+  - getter: to get the value of the properties of an object
+  - setter : to set th value

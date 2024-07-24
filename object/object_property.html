@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>JavaScript object</title>
+  </head>
+  <body>
+    <h1>Js object Property</h1>
+    <p id="demo"></p>
+
+    <script>
+      //using object literal
+      var student = {
+        name: "Simran",
+        age: 21,
+        studies: "Software engineering",
+      };
+      //wayes of accessing properties
+      // student.age = 24;
+      // x = student.age;
+      x = "age";
+      document.getElementById("demo").innerHTML =
+        student.name +
+        " of the age " +
+        student[x] +
+        " studies " +
+        student.studies;
+    </script>
+  </body>
+</html>
