@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUnction</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      function my_function(val) {
+        document.getElementById("demo").innerHTML = val * val;
+      }
+      my_function(5);
+    </script>
+    <script>
+      let x = function () {
+        alert("hello");
+      };
+      // x();
+      let y = x;
+      // y();
+      // document.getElementById("demo").innerHTML = x();
+    </script>
+    <script>
+      var Myfunction = new Function("a", "b", "return a+b");
+      var z = Myfunction(2, 3);
+      document.getElementById("demo").innerHTML = z;
+    </script>
+    <!-- self invoking functio -->
+    <script>
+      (function () {
+        // alert("Hello welcom");
+      })();
+    </script>
+
+    <!-- function as variable -->
+    <script>
+      function Product(a, b) {
+        return a * b;
+      }
+      let a = Product(2, 5) * 5;
+      document.getElementById("demo").innerHTML = a;
+    </script>
+
+    <!-- functions as object -->
+    <script>
+      var body = "return Math.PI *rad  * rad";
+      var circle = new Function("rad", body);
+      // alert(circle(5));
+    </script>
+
+    <!-- arraw functions -->
+    <script>
+      const Myfun = (a, b, c) => {
+        return a * b * c;
+      };
+      let product = Myfun(2, 3, 4);
+      document.getElementById("demo").innerHTML = product;
+    </script>
+
+    <!-- generator function -->
+    <script>
+      function* genrateFUn() {
+        yield 1;
+        yield 2;
+        return 3;
+      }
+      let genrator = genrateFUn();
+      let one = genrator.next();
+      let two = genrator.next();
+      let three = genrator.next();
+
+      alert(JSON.stringify(one));
+      alert(JSON.stringify(two));
+      alert(JSON.stringify(three));
+    </script>
+  </body>
+</html>

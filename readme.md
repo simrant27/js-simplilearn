@@ -49,3 +49,45 @@ Objest ia a collection of properties
 - js object accessors
   - getter: to get the value of the properties of an object
   - setter : to set th value
+
+### function
+
+- js function can be stired in variable
+- function constructore: new Function()
+
+##### self invoking function
+
+- invoked automatically without being called
+- enclosed inside paranthesis
+- to call add paranthesis at the end of function
+
+##### function as values
+
+- we define funcation then assign it to a variable unlike in expression
+
+##### funcation as objects
+
+- includes string which holds actual code i.e function body of function
+
+##### arrow function
+
+- cannot be used as constructors
+
+##### generator functions
+
+- can return multiple values
+- make use of '\*': function\*
+- main method of generatir function is next() method
+- until yield value is completed and return to outer code
+- result is always object with two property: value and done
+
+##### JSON.stringify()
+
+- it cnverts js value or object to hson string
+
+##### pre-defined function
+
+- eval: evaluates string and returns a value
+- parseInt: Parses a string argulemt and retuns an integer
+- escape: returns hexadecimal encoding of an argument
+- unescaoe: return the ascii sring for specified value
